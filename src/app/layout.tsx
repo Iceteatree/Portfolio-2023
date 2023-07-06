@@ -1,8 +1,17 @@
 import '@/styles/globals.css';
-import { Inter } from 'next/font/google';
+import { Inter, Roboto_Condensed } from 'next/font/google';
 import Provider from './provider';
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Inter({
+  subsets: ['latin'],
+  weight: ['300', '400', '700'],
+  variable: '--font-inter',
+});
+const roboto = Roboto_Condensed({
+  subsets: ['latin'],
+  weight: ['400', '700'],
+  variable: '--font-roboto',
+});
 
 export const metadata = {
   title: 'Alan K | Portfolio | 2023',
@@ -15,8 +24,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body className={inter.className} suppressHydrationWarning>
+    <html lang="en" className={`${inter.variable} ${roboto.variable}`} suppressHydrationWarning>
+      <body suppressHydrationWarning>
         <Provider>
           {children}
         </Provider>
