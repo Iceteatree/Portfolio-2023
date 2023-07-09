@@ -29,8 +29,8 @@ function Experience() {
           animation === 'Typing' && (
             <>
               <mesh
-                scale={[0.8, 0.5, 0.8]}
-                position-y={0.2}
+                scale={[0.8, 0.45, 0.8]}
+                position-y={0.23}
                 position-z={-0.07}
               >
                 <boxGeometry />
@@ -39,7 +39,7 @@ function Experience() {
               <mesh
                 scale={5}
                 rotation-x={-Math.PI * 0.5}
-                position-y={-0.02}
+                position-y={0.001}
               >
                 <planeGeometry />
                 <meshStandardMaterial color="white" />
