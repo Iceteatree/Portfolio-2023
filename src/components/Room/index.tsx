@@ -42,7 +42,6 @@ function Room(props:any) {
         <mesh name="Box20255_1_1" geometry={nodes.Box20255_1_1.geometry} material={textureMaterial} />
         <mesh name="Box20255_1_2" geometry={nodes.Box20255_1_2.geometry} material={textureMaterial} />
       </group>
-      <mesh name="Monitor" geometry={nodes.Monitor.geometry} material={textureMaterial} position={[0.185, 0.886, -1.736]} rotation={[0, 1.503, 0]} />
       <mesh name="Shelf" geometry={nodes.Shelf.geometry} material={textureMaterial} position={[-0.91, 1.823, -2.015]} />
       <group name="Pikachu" position={[-0.688, 2.13, -1.805]} rotation={[Math.PI, -0.263, Math.PI]}>
         <mesh name="mesh1465871970" geometry={nodes.mesh1465871970.geometry} material={textureMaterial} />
@@ -65,6 +64,7 @@ function Room(props:any) {
         <mesh name="book3_Cube_1_4" geometry={nodes.book3_Cube_1_4.geometry} material={textureMaterial} />
         <mesh name="book3_Cube_1_5" geometry={nodes.book3_Cube_1_5.geometry} material={textureMaterial} />
       </group>
+      <mesh name="Monitor" geometry={nodes.Monitor.geometry} material={textureMaterial} position={[-0.098, 0.882, -1.675]} rotation={[-Math.PI, 1.474, -Math.PI]} scale={0.011} />
       <mesh name="Plane_1" geometry={nodes.Plane_1.geometry} material={textureMaterial} />
       <mesh name="Plane_2" geometry={nodes.Plane_2.geometry} material={textureMaterial} />
       <mesh name="Plane_3" geometry={nodes.Plane_3.geometry} material={textureMaterial} />
