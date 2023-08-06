@@ -1,5 +1,5 @@
 import {
-  ContactShadows, Environment, OrbitControls, Sky, Sparkles, Stars,
+  ContactShadows, Environment, OrbitControls, Sparkles, Stars,
 } from '@react-three/drei';
 import { extend } from '@react-three/fiber';
 import { useControls } from 'leva';
@@ -16,8 +16,8 @@ function Experience() {
   });
   return (
     <>
-      <OrbitControls />
-      <Sky />
+      {/* <OrbitControls /> */}
+      {/* <Sky /> */}
       <Sparkles />
       <Stars />
 
